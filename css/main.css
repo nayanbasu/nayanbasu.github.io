@@ -1,0 +1,336 @@
+/*!
+ * Start Bootstrap - Business Frontpage HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.icon-bar {
+    background-color: #fff;
+    color: #fff;
+}
+/* Header Image Background - Change the URL below to your image path (example: ../images/background.jpg) */
+
+.navbar {
+    background-color: #000000;
+    min-height: 80px;
+}
+
+.navbar-brand, .navbar-nav > li > a {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #fff;
+
+}
+
+.navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
+    background-color: #3D93FF;
+    color: #FFFFFF;
+}
+
+
+.navbar-nav {
+    float: right;
+}
+
+
+.main-header {
+    height: 40em;
+    background: url('../img/header.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.xantra_nav_parent {
+    position: absolute;
+}
+
+.xantra_nav_child {
+    position: relative;
+    transform: translateY(30%);
+    top: 30%;
+}
+/* Customize the text color and shadow color and to optimize text legibility. */
+
+.tagline {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    padding-top: 160px;
+    font-size: 4em;
+    line-height: 55px;
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.tagtext {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 1.6em;
+    line-height: 25px;
+    text-shadow: 0 0 10px #000;
+    color: #fff;
+}
+
+.btn-custom {
+    background: #000;
+    border: 7px solid #000;
+    color:  #fff;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    border-radius: 0;
+}
+
+.btn-custom:focus {
+    color: #fff;
+    background: #000;
+    border: 7px solid #000;
+}
+
+.btn-custom:hover {
+    background: #00345B;
+    color: #fff;
+    border-bottom: 4px solid #0034FB;
+}
+
+.what-we-do {
+    padding-top: 6em;
+    padding-bottom: 3em;
+}
+
+.para {
+    padding-top: 22px;
+    padding-left: 58px;
+    padding-bottom: 40px;
+    line-height: 1.4em;
+    font-size: 20px;
+    color: #444;
+}
+
+.domains-enum, .domains-desc {
+    background: #F2F4F5;
+    border-color: #F2F4F5;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.domains-enum {
+    padding-bottom: 80px;
+}
+
+.domain-img {
+    height: 16em;    
+}
+
+.domain-classes {
+    padding-top: 60px;
+}
+
+.class-head {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 200;
+    color: #005EA3;
+}
+
+.class-desc {
+    font-size: 16px;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.h2-head {
+    color: #005EA3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    padding-left: 12px;
+    font-weight: 200;
+}
+
+p {
+    font-family: 'Cabin', sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.img-center {
+    margin: 0 auto;
+}
+
+.footer {
+    padding: 2em;
+    padding-bottom: -15px;
+    width: 100%;
+    /*margin: 50px 0;*/
+    background: #000000;
+    color: #999;
+}
+
+.footer p {
+    font-family: 'Dosis', sans-serif;
+}
+
+.no_uline:hover {
+    text-decoration: none;
+}
+
+/* Forms */
+.container-form {
+    width: 90%;
+}
+
+label {
+    font-family: 'Raleway', sans-serif;
+}
+
+.form-control {
+    border-radius: 0px;
+    border: 1px solid #999;
+}
+
+
+
+/* Products */
+
+.vcenter {
+    /*vertical-align: middle;*/
+}
+
+.cont_home_auto {
+    height: 100%;
+
+}
+
+.product_heading {
+    display: inline-block;
+}
+
+.icon_home {
+    font-size: 52px;
+    padding: 20px;
+    color: #fff;
+}
+
+.head_home {
+    font-family: 'Raleway',sans-serif;
+    font-size: 48px;
+    padding-left: 2.6em;
+    color: #FFF;
+}
+
+.icon_health {
+    font-size: 52px;
+    padding: 20px;
+    color: #000;
+}
+
+.head_health {
+    font-family: 'Raleway',sans-serif;
+    font-size: 48px;
+    padding-left: 2.6em;
+    color: #000;
+}
+
+.cont_home_img {
+    height: 100%;
+    position: relative;
+}
+
+.cont_health_img {
+    height: 100%;
+    position: relative;
+}
+
+.home_img {
+    position: absolute;
+    top: 10%;
+    
+}
+
+.health_img {
+    position: absolute;
+    top: 13%;
+    left: 20%;
+    
+}
+
+.products_main {
+    margin-top: 30px;
+}
+
+.products {
+    min-height: 370px;
+    height: 370px;
+}
+
+.product_auto {
+    background-color: #3898FF;
+}
+
+.product_city {
+    /*background-color: #F6982E;*/
+    background-color: #1D9A8A;
+}
+
+.product_health {
+    background-color: #F6F6F6;
+}
+
+.text_health {
+    font-family: 'Cabin',sans-serif;
+    font-size: 26px;
+    padding-left: 5.3em;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.text_home {
+    color: #FFF;
+    font-family: 'Cabin',sans-serif;
+    font-size: 26px;
+    padding-right: 5.3em;
+    padding-left: 60px;
+    padding-top: 20px;
+}
+
+/* Training */
+.training_text {
+    padding-top: 2.5em;
+    padding-bottom: 60px;
+}
+
+.training_text > p {
+    font-family: 'Cabin', sans-serif;
+}
+
+/* About */
+.head_about {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.small_heading {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.about_text {
+    padding-bottom: 42px;
+}
