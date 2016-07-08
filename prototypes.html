@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Prototypes | Xantra</title>
+    
+    <!-- Fonts (Cabin for Heading, Raleway for Text, Dosis for Buttons/Display) -->
+    <link href='https://fonts.googleapis.com/css?family=Cabin:400,500,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway:400,500,600,700,800,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Dosis:400,600,700,500' rel='stylesheet' type='text/css'>
+    <link href='http://weloveiconfonts.com/api/?family=entypo' rel='stylesheet' type='text/css'>
+
+    
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- Galleria -->
+    <script src="galleria/galleria-1.4.2.min.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        .galleria{ width: 900px; height: 400px; background: #FFFFFF; margin-left: 3em; margin-bottom: 3em;  }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-fixed-top xantra_nav_parent" role="navigation">
+        <div class="container xantra_nav_child">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="index.html" class="pull-left">
+                    <img class="img-center" src="img/xantra_logo.png"></img>
+                </a>
+                <!--<a class="navbar-brand" href="#">Xantra</a>-->
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+                    <li>
+                        <a href="products.html">Products</a>
+                    </li>
+                    <li>
+                        <a href="prototypes.html">Prototypes</a>
+                    </li>
+                    <li>
+                        <a href="training.html">Training</a>
+                    </li>
+                    <li>
+                        <a href="http://goo.gl/forms/sQNxPtMDQaOvxchs2">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class='container'>
+        <div class='row what-we-do'>
+            <div class='col-sm-12 about_text'> 
+                <div class='head_about'>
+                    <span class="glyphicon glyphicon-cog" style="color: #D7D9DB; font-size: 42px;"></span>
+                    <span class='h2-head'>Our IoT Prototypes</span>
+                </div>
+                <p>Currently, we are engaged in making our in-house proof-of-concept prototypes for smart-homes, smart-healthcare and smart-parking systems. We have built the first prototype for smart home automation which can control the lights, fan, AC and other devices of your house through the internet.</p>
+                <p>Our prototype is scalable to control any number of devices of your home. It can also be used for complete building automation.</p>
+            </div>
+            
+            <div class='col-sm-12 about_text_id2'> 
+                <div class='head_about'>
+                    <span class="glyphicon glyphicon-home" style="color: #D7D9DB; font-size: 32px;"></span>
+                    <span class='h3-head'>Smart Home</span>
+                </div>
+                
+                <p>Our smart home prototype is an IoT device which can be deployed in home to allow to fully control the devices of the home remotely. This device lets us to know the status of the devices present in the home.</p>
+
+                <p>Presently, we have custom-built the smart home prototype functionality by designing our own ciruit. We have used <a href='https://www.raspberrypi.org/'>Raspberry Pi</a> and an open-source cloud platform to test the prototype.</p>
+            </div>
+            
+            <div class="col-sm-12 galleria">
+                <img src="img/gallery/p1.jpg">Caption Test</img>
+                <img src="img/gallery/p2.jpg">OK</img>
+                <!--<img src="img/gallery/p3.jpg"></img>-->
+            </div>
+            <script>
+                Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');
+                Galleria.run('.galleria');
+            </script>
+        </div>
+    </div>
+    
+    <div class="container footer">
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-4">
+                    <p>Copyright &copy; Xantra 2016</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+        </div>
+    
+    
+    <!-- JQuery / BootStrap was here -->
+
+</body>
+
+</html>

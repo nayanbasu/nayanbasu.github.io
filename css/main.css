@@ -4,6 +4,8 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@import url();
+
 body {
     padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
@@ -157,6 +159,14 @@ h2 {
     color: #005EA3;
     font-family: 'Raleway', sans-serif;
     font-size: 42px;
+    padding-left: 12px;
+    font-weight: 200;
+}
+
+.h3-head {
+    color: #005EA3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
     padding-left: 12px;
     font-weight: 200;
 }
@@ -333,4 +343,64 @@ label {
 
 .about_text {
     padding-bottom: 42px;
+}
+
+.about_text_id2 {
+    padding-bottom: 42px;
+    padding-left: 3em;
+}
+
+.small_heading_id2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+section #services {
+  text-align: center;
+  transform: translatez(0);
+}
+
+section #services h2 {
+  margin: 80px 0px 40px;
+  color: #fff;
+  font-size: 2.4em;
+  font-family: 'Raleway Dots', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+section #services li {
+  width: 120px;
+  height: 140px;
+  display: inline-block;
+  margin: 20px;
+  list-style: none;
+}
+section #services li div {
+  width: 120px;
+  height: 120px;
+  color: #74d4b3;
+  font-size: 3.4em;
+  text-align: center;
+  line-height: 120px;
+  background-color: #fff;
+  transition: all 0.5s ease;
+}
+section #services li div:hover {
+  transform: rotate(360deg);
+  border-radius: 100px;
+}
+section #services li span {
+  width: 120px;
+  height: 20px;
+  display: block;
+  padding: 15px 0px;
+  color: #fff;
+  font-family: 'Advent Pro', sans-serif;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
 }
