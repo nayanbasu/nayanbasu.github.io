@@ -183,6 +183,7 @@ p {
 
 .footer {
     padding: 2em;
+	padding-top: 7em;
     padding-bottom: -15px;
     width: 100%;
     /*margin: 50px 0;*/
@@ -190,9 +191,6 @@ p {
     color: #999;
 }
 
-.footer {
-	margin-top: 8em;
-}
 
 .footer p {
     font-family: 'Dosis', sans-serif;
