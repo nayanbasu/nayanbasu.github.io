@@ -99,9 +99,9 @@ body {
 }
 
 .btn-custom:hover {
-    background: #00345B;
     color: #fff;
-    border-bottom: 4px solid #0034FB;
+    background: #1E54B0;
+    border: 7px solid #1E54B0;
 }
 
 .what-we-do {
