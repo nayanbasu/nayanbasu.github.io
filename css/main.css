@@ -427,3 +427,29 @@ section #services li span {
     margin-top: 5em;
     margin-bottom: 5em;
 }
+
+
+/* Social Sprites */
+.icons {
+	width: 500px;
+	margin: 30px auto 0 auto;
+}
+
+.icons a {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin: 10px;
+	vertical-align: middle;
+	-o-transition: all .3s;
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	-ms-transition: all .3s;
+}
+
+.icons a.twitter { background: url(../img/social/twitter.png) left top no-repeat; }
+.icons a.facebook { background: url(../img/social/facebook.png) left top no-repeat; }
+.icons a.email { background: url(../img/social/email.png) left top no-repeat; }
+.icons a.youtube { background: url(../img/social/youtube.png) left top no-repeat; }
+
+.icons a:hover { background-position: left -34px; }
