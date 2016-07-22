@@ -448,8 +448,8 @@ section #services li span {
 	-ms-transition: all .3s;
 }
 
-.icons a.twitter { background: url(../img/social/twitter.png) left top no-repeat; }
-.icons a.facebook { background: url(../img/social/facebook.png) left top no-repeat; }
+.icons a.twitter { background: url(../img/social/twt.png) left top no-repeat; }
+.icons a.facebook { background: url(../img/social/fbk.png) left top no-repeat; }
 .icons a.email { background: url(../img/social/email.png) left top no-repeat; }
 .icons a.youtube { background: url(../img/social/youtube.png) left top no-repeat; }
 
