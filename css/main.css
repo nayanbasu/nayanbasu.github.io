@@ -429,6 +429,16 @@ section #services li span {
     margin-bottom: 2em;
 }
 
+/* Gallery */
+.carousel {
+    margin: auto;
+    align-items: center;
+    width: 70%;
+}
+.carousel-inner {
+    width:100%;
+    max-width: 100% !important;
+}
 
 /* Social Sprites */
 .icons {
