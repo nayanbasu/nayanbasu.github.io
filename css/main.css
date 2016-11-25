@@ -469,7 +469,7 @@ section #services li span {
 
 /* Social Sprites */
 .icons {
-	width: 500px;
+	/* width: 500px; */
 	margin: 30px auto 0 auto;
 }
 
@@ -491,3 +491,10 @@ section #services li span {
 .icons a.youtube { background: url(../img/social/youtube.png) left top no-repeat; }
 
 .icons a:hover { background-position: left -34px; }
+
+
+/*  Campaign Digital India Footer */
+.img_campaign {
+	margin-left: 5%;
+	margin-right: 5%;
+}
