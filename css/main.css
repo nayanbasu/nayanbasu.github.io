@@ -171,6 +171,14 @@ body {
     font-size: 16px;
 }
 
+.h1-head {
+    color: #005EA3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4em;
+    padding-left: 12px;
+    font-weight: 200;
+}
+
 h2 {
     font-family: 'Raleway', sans-serif;
     font-weight: 900;
@@ -497,4 +505,121 @@ section #services li span {
 .img_campaign {
 	margin-left: 5%;
 	margin-right: 5%;
+}
+
+
+/* Workshop */
+.training-intro {
+    padding: 10px;
+}
+
+.training-promo {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #014F89 ;
+    padding: 22px;
+}
+
+
+.promo-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    margin-top: 0.4em;
+    margin-bottom: 0.6em;
+}
+
+.promo-content {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 1.5em;
+    margin-bottom: 1.2em;
+}
+
+.btn-custom-register {
+    background: #000;
+    border: 0px;
+    color:  #fff;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+	font-size: 22px;
+    letter-spacing: 1.5px;
+    border-radius: 0;
+}
+
+.btn-custom-register:focus {
+    color: #fff;
+    background: #000;
+    border: 0px;
+}
+
+.btn-custom-register:hover {
+    color: #fff;
+    background: #1E54B0;
+    border: 0px;
+}
+
+.training-text {
+    padding-right: 2em;
+}
+
+.training-list-item {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.3em;
+}
+
+/* Training Modules */
+
+.training-modules-head {
+    text-align: center;
+}
+
+.training-modules-section {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.training-modules-container {
+    width: 100%;
+    align-items: center;
+    margin-top: 4em;
+    margin-bottom: 2em;
+}
+
+
+.training-modules-title {
+    padding: 1em;
+    background: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    color: #FFFFFF;
+    border-radius: 0.3em 0.3em 0 0;
+}
+
+.training-modules-data {
+    background: #014F89;
+    border-radius: 0 0 0.3em 0.3em;
+}
+
+.training-modules-content {
+    padding: 1em;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    font-size: 1.4em;
+    font-family: 'Cabin', sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.training-modules-img {
+    padding-top: 2em;
+    padding-bottom: 1.2em;
+}
+
+.module-title {
+    margin: 0;
 }
