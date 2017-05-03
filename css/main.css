@@ -59,6 +59,51 @@ body {
     transform: translateY(30%);
     top: 30%;
 }
+
+
+.dropdown-toggle {
+	background: #000000;
+	color: #FFFFFF;
+}
+
+.open > a:focus, .open > a:focus {
+	background-color: #3D93FF;
+	color: #FFFFFF;
+}
+
+
+.bottom_p {
+	margin-bottom: 7em;
+}
+
+.dropdown-menu {
+	background: #000000;
+	color: #FFFFFF;
+}
+
+.dropdown-menu > li > a {
+	color: #FFFFFF;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.2em;
+    text-transform: uppercase;
+    line-height: 3em;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	background: #3D93FF; 
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+	color: #FFFFFF; 
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	letter-spacing: 0.2em;
+    text-transform: uppercase;
+    line-height: 3em;
+}
+
+
 /* Customize the text color and shadow color and to optimize text legibility. */
 
 .tagline {
