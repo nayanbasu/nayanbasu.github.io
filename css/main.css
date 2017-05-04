@@ -239,10 +239,26 @@ h2 {
     font-weight: 200;
 }
 
+.h2-head-bold {
+    color: #005EA3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 42px;
+    padding-left: 12px;
+    font-weight: 600;
+}
+
 .h3-head {
     color: #005EA3;
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
+    padding-left: 12px;
+    font-weight: 200;
+}
+
+.h4-head {
+    color: #005EA3;
+    font-family: 'Raleway', sans-serif;
+    font-size: 24px;
     padding-left: 12px;
     font-weight: 200;
 }
@@ -642,7 +658,7 @@ section #services li span {
     font-size: 1.2em;
     line-height: 1.2em;
     color: #FFFFFF;
-    border-radius: 0.3em 0.3em 0 0;
+    border-radius: 0em 0em 0 0;
 }
 
 .training-modules-data {
