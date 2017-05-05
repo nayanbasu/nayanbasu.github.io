@@ -183,8 +183,8 @@ body {
 }
 
 .domains-enum, .domains-desc {
-    background: #F2F4F5;
-    border-color: #F2F4F5;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
     width: 100%;
     padding-left: 10%;
     padding-right: 10%;
@@ -234,7 +234,6 @@ h2 {
 	color: #E02400;
     font-family: 'Raleway', sans-serif;
     font-size: 42px;
-    padding-left: 12px;
     font-weight: 200;
 }
 
@@ -243,7 +242,6 @@ h2 {
 	color: #E02400;
     font-family: 'Raleway', sans-serif;
     font-size: 42px;
-    padding-left: 12px;
     font-weight: 600;
 }
 
@@ -252,7 +250,6 @@ h2 {
 	color: #E02400;
     font-family: 'Raleway', sans-serif;
     font-size: 32px;
-    padding-left: 12px;
     font-weight: 200;
 }
 
@@ -261,7 +258,6 @@ h2 {
 	color: #E02400;
     font-family: 'Raleway', sans-serif;
     font-size: 24px;
-    padding-left: 12px;
     font-weight: 200;
 }
 
@@ -460,9 +456,10 @@ label {
 .small_heading {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    font-size: 22px;
+    font-size: 2em;
     padding-top: 15px;
     padding-bottom: 15px;
+	color: #E02400;
 }
 
 .about_text {
