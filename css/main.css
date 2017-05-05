@@ -39,7 +39,7 @@ body {
 
 .main-header {
     height: 40em;
-    background: url('../img/header.jpg') center center no-repeat scroll;
+    background: url('../img/header_color.jpg') center center no-repeat scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
